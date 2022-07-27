@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TASK MANAGER</title>
+    <script src="https://kit.fontawesome.com/1f0265bd41.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="root">
+        <h3>Task Manager</h3>
+        <form>
+            <input type="text" placeholder="Running.." />
+            <button type="button" class="submit-btn">submit</button>
+        </form>
+        <p>Loading...</p>
+        <article class="task-container">
+            <div class="task-cover"></div>
+        </article>
+        <article class="fetch-error hide-msg">Failed to fetch</article>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
